@@ -1,0 +1,78 @@
+[N_Config_String]
+250,250,250,250,4,4,4,4,Low,Low,Low,Low,90,90,90,90,4,4,4,4,n/c,n/c,n/c,n/c,n/c,n/c,n/c,n/c
+[N_Patient]
+GMT / UTC=Thu Mar 03 13:31:15 2016:1457040676
+ECoGTimeStamp= Thu Mar 03 13:31:15 2016:1457040676
+PatientIdentifier=00000000
+PatientInitials=TEST
+PatientGender=Male
+PatientIdentifierTimeStamp=
+ProgrammingParameterFile=C:\Archive\00000000\978332400\P978332400.XML
+DATFile=File_1.DAT
+NPFileType=LayFile Device-Stored
+
+[N_Comments]
+Comments=test.DAT
+TriggerReason=
+
+[N_Configuration]
+AmplifierChannel1SampleRate=250Hz
+AmplifierChannel2SampleRate=250Hz
+AmplifierChannel3SampleRate=250Hz
+AmplifierChannel4SampleRate=250Hz
+AmplifierChannel1ECoGStorageEnabled=On
+AmplifierChannel2ECoGStorageEnabled=On
+AmplifierChannel3ECoGStorageEnabled=On
+AmplifierChannel4ECoGStorageEnabled=On
+AmplifierChannel1StoredECoGSamplingInterval=4ms
+AmplifierChannel2StoredECoGSamplingInterval=4ms
+AmplifierChannel3StoredECoGSamplingInterval=4ms
+AmplifierChannel4StoredECoGSamplingInterval=4ms
+AmplifierChannel1Gain=Low
+AmplifierChannel2Gain=Low
+AmplifierChannel3Gain=Low
+AmplifierChannel4Gain=Low
+AmplifierChannel1LowPassFilterFrequency=90Hz
+AmplifierChannel2LowPassFilterFrequency=90Hz
+AmplifierChannel3LowPassFilterFrequency=90Hz
+AmplifierChannel4LowPassFilterFrequency=90Hz
+AmplifierChannel1HighPassFilterFrequency=4Hz
+AmplifierChannel2HighPassFilterFrequency=4Hz
+AmplifierChannel3HighPassFilterFrequency=4Hz
+AmplifierChannel4HighPassFilterFrequency=4Hz
+PinLabelInput1=n/c
+PinLabelInput2=n/c
+PinLabelInput3=n/c
+PinLabelInput4=n/c
+PinLabelInput5=n/c
+PinLabelInput6=n/c
+PinLabelInput7=n/c
+PinLabelInput8=n/c
+
+[FileInfo]
+File=File_1.DAT
+FileType=Interleaved
+SamplingRate=250
+HeaderLength=0
+Calibration=  1.0000000000000
+WaveformCount=4
+DataType= 0
+
+[Patient]
+ID=Recombined Waveform
+Birthdate=
+Sex=
+TestDate=03/03/2016
+TestTime=13:31:15
+Comments1=
+Technician=
+
+[ChannelMap]
+A1 - A2=1
+A3 - A4=2
+B1 - B2=3
+B3 - B4=4
+
+[Comments]
+
+[UserEvents]
